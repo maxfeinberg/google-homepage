@@ -6,6 +6,7 @@
     height: 100vh;
     background-color: white;
     position: relative;
+    margin: 0 20px;
 }
 
 #google_logo{
@@ -67,4 +68,29 @@
 
 .search_btn:hover{
     border: 1px solid lightgray;
+}
+
+#left-navbar{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0%;
+}
+
+#right-navbar{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.nav-item{
+    margin: 20px 10px;
+    color: #3c4043;
+}
+
+.nav-item:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
