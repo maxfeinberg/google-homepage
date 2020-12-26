@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+#container{
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+
+#google_logo{
+    display: block;
+
+    position: absolute;
+    top: 25%;
+    left: 50%;
+
+    margin: -46px 0 0 -136px;
+}
+
+#search_bar{
+    display: block;
+    width: 500px;
+    height: 40px;
+
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    outline: none;
+    font-size: 15px;
+
+    position: fixed;
+    top: 25%;
+    left: 50%;
+
+    margin: 90px 0 0 -253px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#flex_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*
+260.25 x 40
+*/
+    position: absolute;
+    top: 25%;
+    left: 50%;
+
+    margin: 160px 0 0 -138px;
+}
+
+.search_btn{
+    height: 30px;
+    padding: 0 10px;
+    margin: 5px;
+
+    font-size: 15px;
+    background: #f8f9fa;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #3c4043;
+
+    cursor: pointer;
+}
+
+.search_btn:hover{
+    border: 1px solid lightgray;
+}
