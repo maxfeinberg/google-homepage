@@ -6,7 +6,6 @@
     height: 100vh;
     background-color: white;
     position: relative;
-    margin: 0 20px;
 }
 
 #google_logo{
@@ -75,6 +74,7 @@
     flex-direction: row;
     position: absolute;
     top: 0%;
+    margin-left: 20px;
 }
 
 #right-navbar{
@@ -83,6 +83,7 @@
     position: absolute;
     top: 0%;
     right: 0%;
+    margin-right: 20px;
 }
 
 .nav-item{
@@ -93,4 +94,26 @@
 .nav-item:hover{
     cursor: pointer;
     text-decoration: underline;
+}
+
+#footer{
+    color: #70757a;
+    display: grid;
+    grid-template-columns: repeat(3, auto) 1fr repeat(3, auto);
+    grid-template-rows: 40px;
+    grid-column-gap: 30px;
+    width: 100%;
+    background: lightgray;
+    align-items: center;
+    padding: 0px 30px;
+    background: #f2f2f2;
+    border-top: 1px solid lightgray;
+
+    position: absolute;
+    bottom: 0%;
+
+}
+
+.footer-item{
+    text-align: center;
 }
